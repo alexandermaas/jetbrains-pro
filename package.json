@@ -1,0 +1,22 @@
+{
+  "name": "jetbrains-ide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "ts-node ./api/main.ts",
+    "calculator": "ts-node ./calculator/main.ts",
+    "test": "ts-node jasmine --config=jasmine.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.6.2",
+    "jasmine": "^3.6.3",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "ts-node": "^9.1.1"
+  }
+}
